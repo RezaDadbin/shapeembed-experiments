@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite the original ShapeEmbed paper when building on this work."
 type: software
+repository-code: "https://github.com/RezaDadbin/shapeembed-experiments"
 title: "ShapeEmbed Experiments: 2D Contours, 3D Surfaces, and Topology"
 authors:
   - family-names: Dadbin

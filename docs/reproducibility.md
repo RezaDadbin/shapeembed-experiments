@@ -12,7 +12,7 @@ python -m pip install -r requirements.txt
 
 On Windows, activate with `.venv\Scripts\activate` and use `python` instead of `python3.11` when creating the environment. The direct script paths work from the repository root on all supported platforms. Model/data/output paths are anchored to the repository location.
 
-The full dependency installation has not been repeated in a fresh environment. Checks used an existing environment with the pinned versions. A GitHub Actions workflow is included for Linux CPU checks; a hosted run is pending publication.
+Local checks used an existing environment with the pinned versions. The first [GitHub Actions run](https://github.com/RezaDadbin/shapeembed-experiments/actions/runs/38255404465) also passed on a fresh Linux runner, including dependency installation, syntax checks, all 15 CPU tests, and archived-result verification.
 
 ## 2D commands
 
@@ -96,6 +96,6 @@ python scripts/summarize_results.py --check
 
 The CPU tests check similarity-normalized geometry, cyclic/reversal-invariant losses, arbitrary-permutation invariance of the set encoder, valid point-decoder geometry, rigid alignment, finite forward/backward passes for all five routed 2D variants and the 3D model, deterministic VAE evaluation, and faithful reconstruction/t-SNE presentation.
 
-A small 3D run completed generation (20 samples per class, 16 points), one training epoch, held-out evaluation, and reconstruction/interpolation figure export. Its scores are smoke-test outputs and are not included in the archived results tables. Full 350-epoch training and a fresh-environment install were not repeated. GPU backends and the remote GitHub Actions workflow have not been validated for this release.
+A small 3D run completed generation (20 samples per class, 16 points), one training epoch, held-out evaluation, and reconstruction/interpolation figure export. Its scores are smoke-test outputs and are not included in the archived results tables. Fresh Linux installation and the CPU suite passed in GitHub Actions. Full 350-epoch training and GPU backends have not been revalidated for this release.
 
 The legacy MNIST trainer also completed one CPU epoch on a temporary synthetic training set with no `test.pt` present, verifying that checkpoint selection now uses only a split of the training data. This is a software check, not an MNIST benchmark.

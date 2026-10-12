@@ -1,5 +1,7 @@
 # ShapeEmbed Experiments
 
+[![CPU checks](https://github.com/RezaDadbin/shapeembed-experiments/actions/workflows/tests.yml/badge.svg)](https://github.com/RezaDadbin/shapeembed-experiments/actions/workflows/tests.yml)
+
 **Learning shape representations from 2D contours to unordered 3D surfaces.**
 
 Reproduction experiments, architecture ablations, and extensions of [ShapeEmbed](https://github.com/uhlmanngroup/ShapeEmbed), by **Reza Dadbin**. Based on Foix-Romero et al., *ShapeEmbed: a self-supervised learning framework for 2D contour quantification*, NeurIPS 2025 ([paper](https://openreview.net/forum?id=iT2ZisemFs)).
