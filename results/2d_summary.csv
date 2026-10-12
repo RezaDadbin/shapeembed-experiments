@@ -1,7 +1,7 @@
 dataset,model,macro_f1_mean,macro_f1_std,accuracy_mean,source
-bbbc010,ae,0.8309755457841547,0.021537494705419942,0.8315438782463845,results/archived/2d/bbbc010_ae_evaluation.json
-bbbc010,mlp_decoder,0.8312946260618904,0.014201765745720787,0.8315489260745565,results/archived/2d/bbbc010_mlp_decoder_evaluation.json
-bbbc010,vae,0.8206449443042176,0.01728203941096618,0.8208853890613563,results/archived/2d/bbbc010_original_evaluation.json
-mnist,ae (legacy),0.944576269623095,0.0011387352515863942,0.9453857142857143,results/archived/2d/mnist_ae_classification_shape_only.json
-mnist,mlp_decoder,0.9015615897093593,0.0020168965060914346,0.9030714285714285,results/archived/2d/mnist_mlp_decoder_evaluation.json
-mnist,vae (legacy),0.9498003469183928,0.0013883072324529795,0.9505285714285714,results/archived/2d/mnist_shapeembed_classification_shape_only.json
+bbbc010,ae,0.8309755457841547,0.021537494705419942,0.8315438782463845,results/2d/bbbc010_ae_evaluation.json
+bbbc010,mlp_decoder,0.8312946260618904,0.014201765745720787,0.8315489260745565,results/2d/bbbc010_mlp_decoder_evaluation.json
+bbbc010,vae,0.8206449443042176,0.01728203941096618,0.8208853890613563,results/2d/bbbc010_original_evaluation.json
+mnist,ae (legacy),0.944576269623095,0.0011387352515863942,0.9453857142857143,results/2d/mnist_ae_classification_shape_only.json
+mnist,mlp_decoder,0.9015615897093593,0.0020168965060914346,0.9030714285714285,results/2d/mnist_mlp_decoder_evaluation.json
+mnist,vae (legacy),0.9498003469183928,0.0013883072324529795,0.9505285714285714,results/2d/mnist_shapeembed_classification_shape_only.json

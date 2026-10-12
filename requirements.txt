@@ -1,4 +1,4 @@
-# Tested direct dependencies; Python 3.11. See docs/reproducibility.md.
+# Tested dependencies; Python 3.11.
 torch==2.6.0
 torchvision==0.21.0
 numpy==1.26.4
