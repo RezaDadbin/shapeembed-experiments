@@ -479,9 +479,10 @@ def save_reconstruction_grid(
         row 4: unsmoothed classical-MDS projection, aligned by a similarity
                transform (including optional reflection) to the input outline
 
-    Raw decoder values are shown in row 3. The MDS outline is a projection after
-    matrix cleanup, not a certificate of valid decoded geometry. ``model_type``
-    is retained for caller compatibility; every variant uses the same display.
+    Raw decoder values are shown in row 3. All matrix panels share a color scale.
+    The MDS outline is a projection after matrix cleanup, not a certificate of
+    valid decoded geometry. ``model_type`` is retained for caller compatibility;
+    every variant uses the same display.
     """
     set_plot_style()
 
@@ -497,6 +498,10 @@ def save_reconstruction_grid(
 
     matrix_size = int(np.asarray(input_matrices[0]).shape[-1])
     recon_harmonics = _harmonics_for(model_type, matrix_size)
+    matrix_limits = {
+        "vmin": min(float(np.min(input_matrices)), float(np.min(recon_matrices))),
+        "vmax": max(float(np.max(input_matrices)), float(np.max(recon_matrices))),
+    }
 
     row_labels = [
         f"Input contour\n({matrix_size} pts)",
@@ -525,14 +530,14 @@ def save_reconstruction_grid(
 
         _plot_outline(ax_orig, original_points)
 
-        ax_tgt.imshow(D_in_aligned, cmap="viridis")
+        ax_tgt.imshow(D_in_aligned, cmap="viridis", **matrix_limits)
         align_label = "flip" if align_info["flipped"] else "no flip"
         ax_tgt.set_title(
             f"shift={align_info['shift']}, {align_label}", fontsize=7
         )
         ax_tgt.axis("off")
 
-        ax_rec.imshow(D_out, cmap="viridis")
+        ax_rec.imshow(D_out, cmap="viridis", **matrix_limits)
         ax_rec.axis("off")
 
         _plot_outline(ax_recc, recon_points)

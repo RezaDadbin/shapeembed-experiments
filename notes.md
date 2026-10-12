@@ -12,6 +12,8 @@ The 2D pipeline represents one outer contour, so it misses holes and can discard
 
 Resampling each loop gives a block distance matrix: within-loop blocks describe individual boundaries, and cross-loop blocks describe their relative placement. Padding would need an explicit presence mask. The geometry code could be paired with a discrete topology code containing the component count, hole count, and nesting graph. For planar objects, derive the Euler characteristic from `χ = components − holes`.
 
+Matching must respect contour roles: an outer loop should not be matched to a hole. Each loop's cyclic shift or reversal must permute its rows and columns throughout the full matrix, including cross-loop blocks. Exact matching over loop permutations and their individual reindexings becomes expensive as the contour count grows. Canonical start points, directions, and slot ordering offer a practical approximation, but do not provide exact invariance.
+
 A decoder conditioned on that code could be trained with masked reconstruction, topology supervision, and a cycle-consistency term that checks the decoded topology. Conditioning alone does not guarantee preservation, and a learned topology critic can make mistakes. Evaluation would need direct component/hole measurements from reconstructed masks. Persistent-homology losses would need to describe the filled shape, not just its sampled boundary.
 
 The main unresolved parts are variable contour counts, stable hierarchy extraction, matching equivalent loops, differentiable rasterization, and preserving topology during decoding. Tests on disks, rings, multi-hole shapes, and disconnected objects would be a starting point.

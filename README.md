@@ -1,6 +1,8 @@
 # ShapeEmbed experiments
 
-A small research project exploring [ShapeEmbed](https://github.com/uhlmanngroup/ShapeEmbed): 2D shape embeddings, a few architecture comparisons, and an extension to unordered 3D surface points. By Reza Dadbin.
+Experiments with [ShapeEmbed](https://github.com/uhlmanngroup/ShapeEmbed) on MNIST and BBBC010, plus a small extension to unordered 3D surface points.
+
+The 2D pipeline turns a binary mask into a sampled contour, a normalized distance matrix, and a 128-dimensional shape embedding. The experiments compare VAE, AE, and MLP-decoder variants; the 3D extension tests what happens when surface points have no fixed order.
 
 ![3D reconstruction examples](figures/3d_reconstruction.png)
 

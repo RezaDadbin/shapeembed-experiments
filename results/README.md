@@ -13,6 +13,16 @@ Logistic-regression macro F1 on frozen embeddings; mean ± standard deviation ac
 
 [Full 2D table](2d_summary.csv). The MNIST VAE/AE use the legacy pipeline, while the MLP decoder uses the main pipeline; their preprocessing, normalization, and decoder implementations differ, so these are not controlled decoder-only comparisons.
 
+Parameter counts from the current BBBC010 models, with 64 contour points and a 128-dimensional latent:
+
+| Model | Total parameters | Decoder parameters |
+| --- | ---: | ---: |
+| VAE | 14,161,841 | 2,860,273 |
+| AE | 14,096,177 | 2,860,273 |
+| MLP decoder | 13,731,520 | 2,429,952 |
+
+The MLP decoder reduces the total parameter count by about 3% relative to the VAE. Most parameters are in the shared encoder; these counts alone say nothing about runtime or memory use.
+
 Adding the original size norm to BBBC010 embeddings gave macro F1 values of 0.8185 (VAE), 0.8225 (AE), and 0.8254 (MLP decoder). It did not improve F1 in these saved runs.
 
 The evaluation pools training and test embeddings, then cross-validates the classifier without retraining the encoder inside each fold. Classifier test folds can therefore include samples used for unsupervised encoder training. The legacy classifier standardizes inside each fold; the main classifier does not. Fold standard deviations are not uncertainty across independently trained models.
@@ -24,6 +34,10 @@ The old legacy trainer also used the test partition for checkpoint selection. Th
 ![BBBC010 preprocessing](../figures/2d_preprocessing.png)
 
 *Individual-worm mask → contour → 64 sampled points → distance matrix. BBBC010 v1, Fred Ausubel / Broad Bioimage Benchmark Collection, CC0.*
+
+![BBBC010 VAE reconstruction](../figures/2d_reconstruction.png)
+
+*Six class-balanced test examples selected with seed 42, independently of reconstruction error. Generated from the saved VAE checkpoint using the current plotting code and posterior mean. Rows show the input contour, aligned target matrix, raw decoder matrix, and unsmoothed 2D MDS projection. All matrix panels share a color scale. The projection cleans the distance matrix and aligns the contour for display; it does not establish that the raw decoder output is a valid planar distance matrix. Dataset credit as above.*
 
 ## 3D
 

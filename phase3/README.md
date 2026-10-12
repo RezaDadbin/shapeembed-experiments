@@ -33,4 +33,4 @@ Data is saved in `data/processed/shapes3d/`; generation replaces previous datase
 
 The loss compares sorted pairwise distances, plus a small principal-axis/Hungarian point-matching term for the point decoder. Variational models add KL regularization and clamp posterior variance. Sorted distance distributions are weaker than full correspondence, and principal-axis alignment can be unstable for symmetric objects.
 
-Reconstructions are rendered as convex hulls. The prototype demonstrates a working pipeline and point-order invariance on four simple convex families; real scans, nonconvex surfaces, bending robustness, and topology preservation have not been established. [Saved results and evaluation details](../results/README.md).
+Reconstructions are rendered as convex hulls. Distances identify a shape with its mirror image, so the representation cannot distinguish chirality. The prototype demonstrates a working pipeline and point-order invariance on four simple convex families; real scans, nonconvex surfaces, bending robustness, and topology preservation have not been established. [Saved results and evaluation details](../results/README.md).
