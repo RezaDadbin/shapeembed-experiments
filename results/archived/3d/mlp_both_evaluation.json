@@ -1,0 +1,25 @@
+{
+  "run": "mlp_both",
+  "args": {
+    "encoder": "mlp",
+    "features": "both",
+    "latent_dim": 128,
+    "epochs": 350,
+    "lr": 0.001,
+    "batch_size": 64,
+    "decoder": "point",
+    "ae": false,
+    "beta": 1e-06,
+    "edm_weight": 0.01,
+    "val_frac": 0.0,
+    "tag": "",
+    "seed": 42
+  },
+  "n_params": 5672512,
+  "cv_accuracy_mean": 1.0,
+  "cv_accuracy_std": 0.0,
+  "latent_drift_under_permutation": 2.437859296798706,
+  "accuracy_with_permuted_inputs": 0.25625,
+  "test_recon_error": 4.3595150600594934e-07,
+  "test_edm_residual": 6.099933752556908e-11
+}

@@ -1,0 +1,14 @@
+# Tested direct dependencies; Python 3.11. See docs/reproducibility.md.
+torch==2.6.0
+torchvision==0.21.0
+numpy==1.26.4
+scipy==1.16.2
+scikit-image==0.22.0
+scikit-learn==1.7.1
+umap-learn==0.5.9.post2
+matplotlib==3.8.0
+tqdm==4.65.0
+tensorboard==2.18.0
+pyyaml==6.0.1
+pandas==1.5.3
+Pillow==11.1.0

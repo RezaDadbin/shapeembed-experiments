@@ -1,0 +1,19 @@
+{
+  "accuracy_mean": 0.9030714285714285,
+  "accuracy_std": 0.0018757311499622575,
+  "macro_f1_mean": 0.9015615897093593,
+  "macro_f1_std": 0.0020168965060914346,
+  "macro_precision_mean": 0.9016344475562473,
+  "macro_precision_std": 0.0019896950793061234,
+  "macro_recall_mean": 0.9016601799028672,
+  "macro_recall_std": 0.0020044591681369094,
+  "log_loss_mean": 0.3322595749668966,
+  "log_loss_std": 0.009769169516773054,
+  "num_folds": 5,
+  "classifier": "LogisticRegression",
+  "model_type": "mlp_decoder",
+  "checkpoint": "outputs/checkpoints/mnist_mlp_decoder_best.pt",
+  "num_samples": 70000,
+  "latent_dim": 128,
+  "uses_size_feature": false
+}

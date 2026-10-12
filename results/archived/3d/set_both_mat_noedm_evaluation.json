@@ -1,0 +1,25 @@
+{
+  "run": "set_both_mat_noedm",
+  "args": {
+    "encoder": "set",
+    "features": "both",
+    "latent_dim": 128,
+    "epochs": 350,
+    "lr": 0.001,
+    "batch_size": 64,
+    "decoder": "matrix",
+    "ae": false,
+    "beta": 1e-06,
+    "edm_weight": 0.0,
+    "val_frac": 0.0,
+    "tag": "noedm",
+    "seed": 42
+  },
+  "n_params": 3030144,
+  "cv_accuracy_mean": 1.0,
+  "cv_accuracy_std": 0.0,
+  "latent_drift_under_permutation": 1.5485356641420367e-07,
+  "accuracy_with_permuted_inputs": 1.0,
+  "test_recon_error": 2.8359963835100643e-05,
+  "test_edm_residual": 9.807308742892928e-06
+}

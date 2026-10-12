@@ -1,0 +1,198 @@
+[
+  {
+    "file": "results/archived/2d/bbbc010_original_evaluation.json",
+    "source_archive": "final/new/outputs/results/bbbc010_original_evaluation.json",
+    "source_sha256": "b367c72a8e2ec41ce0cb7e9b4fc75d56e14fa64d0574d5784ae57086b2c9d348",
+    "published_sha256": "30ab452a219c5a07890eaba10b9ce67bf92c3eac4b7a9cf1fa2227e01245bc85",
+    "transformation": "JSON formatting; absolute checkpoint paths made relative; numeric values unchanged"
+  },
+  {
+    "file": "results/archived/2d/bbbc010_ae_evaluation.json",
+    "source_archive": "final/new/outputs/results/bbbc010_ae_evaluation.json",
+    "source_sha256": "65d27b87d9872f1dba75876bea379d56af57db2c75858a59386c222f57badc47",
+    "published_sha256": "6502b9f6b5571d687b5933c7366c54d26cf2646c0088764c7e89fd2b401df3d8",
+    "transformation": "JSON formatting; absolute checkpoint paths made relative; numeric values unchanged"
+  },
+  {
+    "file": "results/archived/2d/bbbc010_mlp_decoder_evaluation.json",
+    "source_archive": "final/new/outputs/results/bbbc010_mlp_decoder_evaluation.json",
+    "source_sha256": "d0b5aad3f580c252e6b189c30415aa7be4c9227e9c4674afd59bb9b47eedb69c",
+    "published_sha256": "7c6c1819a11580849b2ed952734a3e061792249d7ed0144072a25c23c1dde4d6",
+    "transformation": "JSON formatting; absolute checkpoint paths made relative; numeric values unchanged"
+  },
+  {
+    "file": "results/archived/2d/mnist_mlp_decoder_evaluation.json",
+    "source_archive": "final/new/outputs/results/mnist_mlp_decoder_evaluation.json",
+    "source_sha256": "5a570b82d791e1cd14a0ba71915f4764d28a6599e5140afc4618afad0322064c",
+    "published_sha256": "12664f07a1019bfa67c1ad17c5987c02a7ffa8a7d8d792b29f67460c573980d1",
+    "transformation": "JSON formatting; absolute checkpoint paths made relative; numeric values unchanged"
+  },
+  {
+    "file": "results/archived/2d/mnist_shapeembed_classification_shape_only.json",
+    "source_archive": "final/old/outputs/metrics/mnist_shapeembed_classification_shape_only.json",
+    "source_sha256": "dae44b9a13907453ddd7725be8373bea7faf67aa76ef1428272da98ea94d6990",
+    "published_sha256": "da2ea3baa8a0e0d14dfd02b72a6a89d576dadccdaa1ba2851f3f98603a922bcd",
+    "transformation": "JSON formatting; absolute checkpoint paths made relative; numeric values unchanged"
+  },
+  {
+    "file": "results/archived/2d/mnist_ae_classification_shape_only.json",
+    "source_archive": "final/old/outputs/metrics/mnist_ae_classification_shape_only.json",
+    "source_sha256": "02a601dcc757c6790cb7f74af2fa461497d3c0f00b1c956dd7381f0a9197201a",
+    "published_sha256": "9522b45ff14f1ca4ec864354dff4b30fa26140af163db26b85d49b120283a187",
+    "transformation": "JSON formatting; absolute checkpoint paths made relative; numeric values unchanged"
+  },
+  {
+    "file": "results/archived/3d/cnn_both_evaluation.json",
+    "source_archive": "shapeembed_task_p3/shapes3d/results/cnn_both_evaluation.json",
+    "source_sha256": "7a78a4b5a17964be0058afa23285d87c591f9524a9894aecf7d764f862680910",
+    "published_sha256": "39e993673f77047217e10e72812daada8434ce8d56a4cbc09129e22b30f84d03",
+    "transformation": "JSON formatting; absolute checkpoint paths made relative; numeric values unchanged"
+  },
+  {
+    "file": "results/archived/3d/mlp_both_evaluation.json",
+    "source_archive": "shapeembed_task_p3/shapes3d/results/mlp_both_evaluation.json",
+    "source_sha256": "7789bdc23ea67a15b9d2caf818521a591615db0ab5e672fd5895ebc1b93ecee3",
+    "published_sha256": "22e202cd4d2a57411f56f9b695dd0a696cf136be1990a8d15810759b88ed8f31",
+    "transformation": "JSON formatting; absolute checkpoint paths made relative; numeric values unchanged"
+  },
+  {
+    "file": "results/archived/3d/set_both_ae_evaluation.json",
+    "source_archive": "shapeembed_task_p3/shapes3d/results/set_both_ae_evaluation.json",
+    "source_sha256": "06d1660a5f0309add0b6ab1f658a31b7d381ae8340b61f40536aa16bcaa2f44a",
+    "published_sha256": "df4c3736b505fafafa4fac2f80e2b4026da234e2848c3e91b5d8fc63b08ebb7d",
+    "transformation": "JSON formatting; absolute checkpoint paths made relative; numeric values unchanged"
+  },
+  {
+    "file": "results/archived/3d/set_both_evaluation.json",
+    "source_archive": "shapeembed_task_p3/shapes3d/results/set_both_evaluation.json",
+    "source_sha256": "dadf926c255327295607c8835184a4825d1a77d011445d44221aed770b824cc6",
+    "published_sha256": "a18bb6c4f1b36799bad27987b8808bd5793602ac33fb80aae3d5d865523ea013",
+    "transformation": "JSON formatting; absolute checkpoint paths made relative; numeric values unchanged"
+  },
+  {
+    "file": "results/archived/3d/set_both_mat_evaluation.json",
+    "source_archive": "shapeembed_task_p3/shapes3d/results/set_both_mat_evaluation.json",
+    "source_sha256": "9ee24bb5d22dac130f0379c046177a893642acf85e48c157d9d494d5d47a5112",
+    "published_sha256": "e92531dfd6e81033404d46355f28c25ce2a6b9a85ce2dcc7eb8bf81ac599dafd",
+    "transformation": "JSON formatting; absolute checkpoint paths made relative; numeric values unchanged"
+  },
+  {
+    "file": "results/archived/3d/set_both_mat_noedm_evaluation.json",
+    "source_archive": "shapeembed_task_p3/shapes3d/results/set_both_mat_noedm_evaluation.json",
+    "source_sha256": "9bea43023cfc3a957b2e0a02a0a21cb0dbf4625df127183d172540a87ace0eb1",
+    "published_sha256": "b45ca4ee1315f03b9b2fe7392931815a52301b4931df0f4e35e60e3e6f50a4f7",
+    "transformation": "JSON formatting; absolute checkpoint paths made relative; numeric values unchanged"
+  },
+  {
+    "file": "results/archived/3d/set_euclidean_evaluation.json",
+    "source_archive": "shapeembed_task_p3/shapes3d/results/set_euclidean_evaluation.json",
+    "source_sha256": "902c0eb68849416ff25ca9acf66e8dcce4d649a675bb9f08d3ac4a19ab056ae9",
+    "published_sha256": "d17b49ac019103e8c4b240f0ed248c72132956a42a33084dc9d8f9624a76a672",
+    "transformation": "JSON formatting; absolute checkpoint paths made relative; numeric values unchanged"
+  },
+  {
+    "file": "results/archived/3d/set_geo_evaluation.json",
+    "source_archive": "shapeembed_task_p3/shapes3d/results/set_geo_evaluation.json",
+    "source_sha256": "5c912bbf49067733594f4f0f4a46f19eb3935c56a5854c560b9b4fe254d7a201",
+    "published_sha256": "87c6bfbf2625d2c6212acf4c6307e4d261fd123c3e9fb38ce36855a3db7ed461",
+    "transformation": "JSON formatting; absolute checkpoint paths made relative; numeric values unchanged"
+  },
+  {
+    "file": "results/archived/3d/cnn_both_history.json",
+    "source_archive": "shapeembed_task_p3/shapes3d/results/cnn_both_history.json",
+    "source_sha256": "707f4b99652f66061df0b7032b751c15687a5582506118fae3d2ac8b0c9dc3a0",
+    "published_sha256": "881711067a855bc804298b2b63b91b14bbead2422f1ffced49c8f0712bb41247",
+    "transformation": "JSON formatting; absolute checkpoint paths made relative; numeric values unchanged"
+  },
+  {
+    "file": "results/archived/3d/mlp_both_history.json",
+    "source_archive": "shapeembed_task_p3/shapes3d/results/mlp_both_history.json",
+    "source_sha256": "9d92ee7f3e6a9c7ec9e071a47ec6dcc643fcc167352d19067d60857c2181ed0b",
+    "published_sha256": "531d54aa27fadbfb98db6ad912d5a2682fd1a9b9c23f40c4b870a0ae1d8c9ffb",
+    "transformation": "JSON formatting; absolute checkpoint paths made relative; numeric values unchanged"
+  },
+  {
+    "file": "results/archived/3d/set_both_ae_history.json",
+    "source_archive": "shapeembed_task_p3/shapes3d/results/set_both_ae_history.json",
+    "source_sha256": "4e8203f0d7d4eda84313b7f11fa721157c109d61f2d7b7dfe0914a70a041f7d3",
+    "published_sha256": "e88d8193b010c615d221177aa7c47f4285dde437afcf32844824ab959fd663ef",
+    "transformation": "JSON formatting; absolute checkpoint paths made relative; numeric values unchanged"
+  },
+  {
+    "file": "results/archived/3d/set_both_history.json",
+    "source_archive": "shapeembed_task_p3/shapes3d/results/set_both_history.json",
+    "source_sha256": "42a338f887227b8660a881f19d50843dc8d70c7ad52ed0a52f67ebe7d5ff8079",
+    "published_sha256": "32746a586c7877976e031c28f4ed30c7710026bf5e47300ae340eb348bda5534",
+    "transformation": "JSON formatting; absolute checkpoint paths made relative; numeric values unchanged"
+  },
+  {
+    "file": "results/archived/3d/set_both_mat_history.json",
+    "source_archive": "shapeembed_task_p3/shapes3d/results/set_both_mat_history.json",
+    "source_sha256": "208ff2ef8152f3c8ac094c304c2b9144dee8cd0b1bab9fc3be8cab2429919c46",
+    "published_sha256": "92376f37d65af66f4fdd53d23dfe8af3422d6613bdaa6bbeccc4ccadd47e57e4",
+    "transformation": "JSON formatting; absolute checkpoint paths made relative; numeric values unchanged"
+  },
+  {
+    "file": "results/archived/3d/set_both_mat_noedm_history.json",
+    "source_archive": "shapeembed_task_p3/shapes3d/results/set_both_mat_noedm_history.json",
+    "source_sha256": "50b2e0941178f21eb1c88233c2997f655f075ed7aa9eae7c9479983744e272b0",
+    "published_sha256": "032c582abe20d3cfba36f085951a463239d842324aa89dfc4e707699aded678c",
+    "transformation": "JSON formatting; absolute checkpoint paths made relative; numeric values unchanged"
+  },
+  {
+    "file": "results/archived/3d/set_euclidean_history.json",
+    "source_archive": "shapeembed_task_p3/shapes3d/results/set_euclidean_history.json",
+    "source_sha256": "cd9aca1617586c84d1c09d5658644ab9a01864af6ec0583ee515b26f2d4acd77",
+    "published_sha256": "4977d5a7576c2fb85650770d037d9eb1684f1b06daa769d28e3747d9f09f0a95",
+    "transformation": "JSON formatting; absolute checkpoint paths made relative; numeric values unchanged"
+  },
+  {
+    "file": "results/archived/3d/set_geo_history.json",
+    "source_archive": "shapeembed_task_p3/shapes3d/results/set_geo_history.json",
+    "source_sha256": "6d13197a840581774f9d628664e1f625e46e48584f32a1fd94a462a2ddf105ce",
+    "published_sha256": "2d976845f513b7596de7af53ac5164a319d396cc87e16c46fd1845f88f51cd4e",
+    "transformation": "JSON formatting; absolute checkpoint paths made relative; numeric values unchanged"
+  },
+  {
+    "file": "docs/assets/3d_reconstruction.png",
+    "source_archive": "shapeembed_task_p3/shapes3d/figures/set_both_reconstruction.png",
+    "source_sha256": "36459beca99884c26486867aa8af65624d4c0a9b838b3e61c9888df1b99246ad",
+    "published_sha256": "36459beca99884c26486867aa8af65624d4c0a9b838b3e61c9888df1b99246ad",
+    "transformation": "unchanged image; topology diagrams are conceptual, not trained-model outputs"
+  },
+  {
+    "file": "docs/assets/3d_interpolation.png",
+    "source_archive": "shapeembed_task_p3/shapes3d/figures/set_both_interpolation.png",
+    "source_sha256": "bd1a104f27b6fa8730bc0ec3af14c1fd0ccfc2580d69e4bc2d91ee11b2a16fc2",
+    "published_sha256": "bd1a104f27b6fa8730bc0ec3af14c1fd0ccfc2580d69e4bc2d91ee11b2a16fc2",
+    "transformation": "unchanged image; topology diagrams are conceptual, not trained-model outputs"
+  },
+  {
+    "file": "docs/assets/2d_preprocessing.png",
+    "source_archive": "final/new/outputs/figures/bbbc010_preprocessing_gallery.png",
+    "source_sha256": "e146a7e2ed6f0520bfa86fb59d6a5a739399000c6e6e71d04d36e608dd09a22c",
+    "published_sha256": "e146a7e2ed6f0520bfa86fb59d6a5a739399000c6e6e71d04d36e608dd09a22c",
+    "transformation": "unchanged image; topology diagrams are conceptual, not trained-model outputs"
+  },
+  {
+    "file": "docs/assets/topology_contours.png",
+    "source_archive": "shapeembed_task_p3/paper/phase3_section2_toposhapeembed/figures/fig_contour_hierarchy.png",
+    "source_sha256": "b1222d90afd99df63e31228a6ffd4d0dd1665a3283d737532c83940348e68794",
+    "published_sha256": "b1222d90afd99df63e31228a6ffd4d0dd1665a3283d737532c83940348e68794",
+    "transformation": "unchanged image; topology diagrams are conceptual, not trained-model outputs"
+  },
+  {
+    "file": "docs/assets/topology_blocks.png",
+    "source_archive": "shapeembed_task_p3/paper/phase3_section2_toposhapeembed/figures/fig_block_matrix_simple.png",
+    "source_sha256": "073a6ca0a174460744b505d6699a7892b84f07853b3e883b59fa1350bec1befb",
+    "published_sha256": "073a6ca0a174460744b505d6699a7892b84f07853b3e883b59fa1350bec1befb",
+    "transformation": "unchanged image; topology diagrams are conceptual, not trained-model outputs"
+  },
+  {
+    "file": "docs/assets/topology_cycle.png",
+    "source_archive": "shapeembed_task_p3/paper/phase3_section2_toposhapeembed/figures/fig_topo_cycle.png",
+    "source_sha256": "5bdaba0386aca39c94dfb4e9b60beb63a1f319b21a9f1f318ae18fca19c03289",
+    "published_sha256": "5bdaba0386aca39c94dfb4e9b60beb63a1f319b21a9f1f318ae18fca19c03289",
+    "transformation": "unchanged image; topology diagrams are conceptual, not trained-model outputs"
+  }
+]
